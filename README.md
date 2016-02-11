@@ -8,11 +8,19 @@ Install
 
     bower install ngl.lodash
 
-**index.html**
+Include the sources
 
 ```html
 <script src="bower_components/lodash/lodash.js"></script>
 <script src="bower_components/ngl.lodash/src/lodash.js"></script>
+```
+
+Add `ngl.lodash` to your app dependencies
+
+```js
+angular.module('app', [
+  'ngl.lodash'
+]);
 ```
 
 API
