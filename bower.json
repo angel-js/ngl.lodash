@@ -1,0 +1,9 @@
+{
+  "name": "ngl.lodash",
+  "version": "4.3.0",
+  "license": "MIT",
+  "main": "./src/lodash.js",
+  "dependencies": {
+    "lodash": "^4.3.0"
+  }
+}
