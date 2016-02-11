@@ -3,6 +3,18 @@ ngl.lodash
 
 angel / angular 1.x bindings to [lodash](https://github.com/lodash/lodash)
 
+Install
+-------
+
+    bower install ngl.lodash
+
+**index.html**
+
+```html
+<script src="bower_components/lodash/lodash.js"></script>
+<script src="bower_components/ngl.lodash/src/lodash.js"></script>
+```
+
 API
 ---
 
