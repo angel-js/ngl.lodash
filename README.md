@@ -26,23 +26,22 @@ angular.module('app', [
 API
 ---
 
-### `lodash` service
+### `_` service
 
-Wrapper to `lodash`. It is just the `lodash` API exposed through
-angular's DI system
+Publishes the global `_` exposed by **lodash** into angular's DI system
 
 ```js
 angular.module('app', ['ngl.lodash'])
-.directive('main', function (lodash) {
+.directive('main', function (_) {
   return function (scope) {
-    scope.data = lodash.map([1, 2, 3], function (value) { return value * 2; });
+    scope.data = _.map([1, 2, 3], function (value) { return value * 2; });
   };
 });
 ```
 
-### `_` service
+### `lodash` service
 
-Alias to `lodash` service
+Alias to `_` service
 
 Alternatives
 ------------

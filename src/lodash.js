@@ -1,4 +1,4 @@
 angular.module('ngl.lodash', [])
 
-.factory('lodash', function ($window) { return $window.lodash; })
-.factory('_', function (lodash) { return lodash; });
+.factory('_', function ($window) { return $window._; })
+.factory('lodash', function (_) { return _; });
