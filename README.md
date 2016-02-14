@@ -1,7 +1,7 @@
 ngl.lodash
 ==========
 
-angel / angular 1.x bindings to [lodash](https://github.com/lodash/lodash)
+Angular 1.x bindings to [lodash](https://github.com/lodash/lodash)
 
 Install
 -------
