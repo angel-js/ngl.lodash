@@ -54,7 +54,7 @@ General purpose helper libraries checked out:
   * [lodash](https://github.com/lodash/lodash)
 
 All the alternatives have similar APIs, are well documented,  unit tested and
-available through the popular package managers `npm` and `bower`
+available through `npm` and `bower` package managers
 
 `lodash` has been chosen for being modular, actively mantained and because
 implements the features from all others
