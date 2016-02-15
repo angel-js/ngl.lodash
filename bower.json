@@ -4,6 +4,7 @@
   "license": "MIT",
   "main": "./src/lodash.js",
   "dependencies": {
+    "angular": "1.*",
     "lodash": "^4.3.0"
   }
 }
